@@ -22,11 +22,22 @@ and products for the fictitious company Contoso.
 
 > Note - This sample is targeted and tested for Windows 10, version 2004 (10.0; Build 19041), and Visual Studio 2019. If you prefer, you can use project properties to retarget the project(s) to Windows 10, version 1903 (10.0; Build 18362).
 
-[Download and try it now from the Microsoft Store](https://www.microsoft.com/store/apps/9PF1WCV13501). Visual Studio not required. 
-
 ![ContosoApp screenshot 1](screenshot1.png)
 
-## What's new
+### June 2020 update
+
+This update includes:
+
+* Update to WinUI 2.4 
+	* Add Microsoft.UI.Xaml NuGet package reference
+	* Update <Application.Resources> in App.xaml 
+* Refactoring for the following WinUI 2.4 controls:
+   * [ProgressBar](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls)
+   * [NavigationView](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/navigationview)
+   * [RadioButtons](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/radio-button)
+* Minor update to AppBarSeparator instances to correct unneccessary appearance of "More" button, and eliminate vertical shift of command buttons when the "More" button is clicked
+
+## Previous updates
 
 - Use of new controls like [DataGrid](https://docs.microsoft.com/windows/communitytoolkit/controls/datagrid), 
 [NavigationView](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.navigationview), and 
